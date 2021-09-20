@@ -22,9 +22,17 @@
     "index.js"
   ],
   "scripts": {
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
     "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "array-differ": "4.0.0",
+    "get-range": "3.0.1",
+    "random-int": "3.0.0"
   }
 }

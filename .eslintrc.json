@@ -4,7 +4,7 @@
     "es2021": true
   },
   "parserOptions": {
-    "sourceType":"module"
+    "sourceType": "module"
   },
   "extends": ["eslint:recommended", "prettier"]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@dtjv/randomize-array",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get each and every item in array, randomly.",
   "author": {
     "name": "David Valles",
@@ -10,7 +10,9 @@
   "repository": "dtjv/randomize-array",
   "keywords": [
     "random",
-    "array"
+    "randomize",
+    "array",
+    "unique"
   ],
   "license": "MIT",
   "type": "module",

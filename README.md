@@ -27,11 +27,14 @@ getCharacter() //-> undefined
 
 ### randomizeArray(array, options?)
 
-A named export.
+```javascript
+import { randomizeArray } from '@dtjv/randomize-array'
+```
 
-Returns a function. Each invocation of this function returns a random value
-from `array` until all values are returned. Subsequent calls return `undefined`
-(unless the [reset](#reset) option is set to `true`).
+Returns a function, where each invocation returns a unique random value from
+`array` until all values are returned. Subsequent calls return `undefined`
+(unless the [reset](#optionsreset) option is set to `true`, or
+[restart](#restart) is called).
 
 #### array
 
@@ -49,12 +52,16 @@ Type: `Object`
 Type: `boolean`\
 Default: `false`
 
+Makes all values of `array` available for random selection once all values have
+been retrieved.
+
 ### restart()
 
-A named export.
+```javascript
+import { restart } from '@dtjv/randomize-array'
+```
 
-Resets internal state, making all values of `array` available for random
-selection.
+Makes all values of `array` available for random selection.
 
 ## Author
 

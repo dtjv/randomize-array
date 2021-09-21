@@ -21,18 +21,20 @@
     "node": ">=12.20"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "format": "prettier -w .",
-    "lint": "eslint .",
+    "lint": "eslint . && tsd",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest test --coverage=true"
   },
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "jest": "27.2.1",
-    "prettier": "2.4.1"
+    "prettier": "2.4.1",
+    "tsd": "0.17.0"
   },
   "dependencies": {
     "array-differ": "4.0.0",

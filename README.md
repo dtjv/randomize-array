@@ -1,3 +1,5 @@
+**This project is archived**
+
 # randomize-array
 
 Get each and every item in array, randomly.
